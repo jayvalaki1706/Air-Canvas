@@ -1,10 +1,10 @@
 # Air-Canvas
 This repository contains a Python-based implementation of an "Air Canvas" application using the OpenCV library. The Air Canvas allows users to draw and paint in the air using hand gestures captured through a webcam.
 # Features:
-Hand Gesture Recognition: Utilizes the MediaPipe library to detect and track hand landmarks in real-time.
-Drawing Interface: Offers a dynamic drawing interface where hand gestures translate into drawing actions.
-Multi-color Drawing: Supports multiple colors for drawing, with the ability to switch colors on-the-fly using hand gestures.
-Canvas Controls: Includes controls for clearing the canvas and selecting different drawing colors through specific hand gestures.
+## Hand Gesture Recognition: Utilizes the MediaPipe library to detect and track hand landmarks in real-time.
+## Drawing Interface: Offers a dynamic drawing interface where hand gestures translate into drawing actions.
+## Multi-color Drawing: Supports multiple colors for drawing, with the ability to switch colors on-the-fly using hand gestures.
+## Canvas Controls: Includes controls for clearing the canvas and selecting different drawing colors through specific hand gestures.
 # How it works:
 Hand Tracking: Utilizes the MediaPipe Hands module to detect hand landmarks from the webcam feed.
 Gesture-based Drawing: Interprets specific hand movements to initiate drawing actions, switch colors, and control the canvas.
